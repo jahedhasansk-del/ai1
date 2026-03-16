@@ -148,7 +148,7 @@
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M21.8 3.1L1.2 10.9c-1.3.5-1.3 1.3-.2 1.6l5.1 1.6 11.8-7.4c.6-.3 1.1-.1.7.4L9 16.1l-.4 5.2c.5 0 .8-.2 1.1-.5l2.6-2.5 5.2 3.8c.9.5 1.6.3 1.9-.9l3.4-16c.4-1.5-.5-2.2-1-1.1z" fill="#29b6f6"/></svg>
       Telegram Group
     </a>
-    <a class="top-link-btn register-btn" href="https://t.me/HGNICEVIP" target="_blank">
+    <a class="top-link-btn register-btn" href="https://hgnice.cc/#/register?invitationCode=41641354536" target="_blank">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z" fill="#ff7aaa"/></svg>
       New Register
     </a>
@@ -277,7 +277,6 @@
     document.getElementById('goBtn').disabled = true;
     usedPeriods.add(val);
 
-    // Input stays with value — DO NOT clear it
     const card = document.getElementById('resultCard');
     card.classList.add('visible');
     document.getElementById('periodLabel').textContent = 'PERIOD: ' + val;
@@ -353,7 +352,6 @@
 
     updateHistory();
 
-    // Re-enable button — input stays as is
     setTimeout(() => {
       isRunning = false;
       document.getElementById('goBtn').disabled = false;
